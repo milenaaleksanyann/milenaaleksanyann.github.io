@@ -1,0 +1,30 @@
+@import './../Variables/variables.scss';
+.footer{
+    width: 100%;
+    height: 60vh;
+    min-height: 413px;
+    background-color: $siteColor;
+
+    .social{
+        width: 100%;
+        height: 80%;
+
+        .contact{
+            width: 100%;
+            height: 18%;
+           
+            p{
+               color: $black;
+            svg{
+                 width: 20px;
+            }
+        }
+        }
+        .powered{
+            text-align: center;
+
+            p{
+                color: $black;}
+        }
+    }
+}

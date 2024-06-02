@@ -1,0 +1,18 @@
+.MainBottom{
+    width: 100%;
+    height: auto;
+    min-height: 512px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width:850px) {
+    .MainBottom{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-around;
+        
+    }
+}
